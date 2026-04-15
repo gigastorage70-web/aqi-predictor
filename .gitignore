@@ -1,0 +1,18 @@
+# Secrets — never commit
+.streamlit/secrets.toml
+
+# Model artifact — regenerate with train_and_save.py
+# Remove this line if you want to commit the pkl to the repo
+# aqi_model.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Data / outputs
+IndiaAQIcsv
+*.png

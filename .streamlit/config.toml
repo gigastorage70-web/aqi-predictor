@@ -1,0 +1,21 @@
+[server]
+# Streamlit Cloud sets its own port; this is for local runs
+port = 8501
+headless = true          # no browser auto-open in production
+enableCORS = false       # Streamlit Cloud handles CORS
+enableXsrfProtection = true
+
+[runner]
+# Re-run only on widget interaction, not on every file save in prod
+fastReruns = true
+
+[client]
+showErrorDetails = false  # hide tracebacks from end users
+
+[theme]
+base = "light"
+primaryColor = "#4a6cf7"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f4ff"
+textColor = "#1a1a2e"
+font = "sans serif"
