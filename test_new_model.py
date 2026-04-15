@@ -1,6 +1,6 @@
 """Quick test of the new model"""
 
-from predictor_updated import predict_aqi
+from predictor import predict_aqi
 
 print("🧪 Testing New Model\n")
 
